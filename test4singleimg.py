@@ -5,10 +5,6 @@ import torchvision.transforms as transforms
 import numpy as np
 from PIL import Image
 from train_based_torchvision import Net
-import matplotlib.pyplot as plt
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
 
 
 # 相互转换 https://blog.csdn.net/qq_37828488/article/details/96628988?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
@@ -25,7 +21,7 @@ def imshow(img, name):
     # cv2.imshow("img", img)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
-    cv2.imwrite(str(name)+'.jpg', img)
+    cv2.imwrite(str(name) + '.jpg', img)
 
 
 def get_some_imgs(data_path="E:/biye/gogogo/note_book/torch_note/data"):

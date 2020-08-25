@@ -28,6 +28,10 @@ pip install matplotlib
  
  
  ## TODO
- 1. 添加图形化界面程序
+ 1. 添加图形化界面程序(Done)
+ 
+  ![win](imgs/window.jpg)
  2. 添加从文件夹中读取数据集训练的代码
  3. 注释写详细一点
+ 
+ # git
